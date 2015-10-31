@@ -31,8 +31,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   .state('home', {
     url: '/',
+    templateUrl: 'views/index.html'
+  })
+
+  .state('start', {
+    url: '/start',
     templateUrl: 'views/start.html',
-  });
+  })
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/');
 
