@@ -1,38 +1,39 @@
 <ion-view view-title="Dashboard" hide-nav-bar="true" ng-controller="StartCtrl">
-<ion-header-bar class="bar-positive">
-  <button class="button" ng-click="back()"> Back</button>
-  <h1 class="title">Pocket Trainer</h1>
-  <button class="button ion-gear-a button-icon"></button>
+  <ion-header-bar class="bar-positive">
+    <button class="button" ng-click="back()"> Back</button>
+    <h1 class="title">Pocket Trainer</h1>
+    <button class="button ion-gear-a button-icon"></button>
 
-</ion-header-bar>
+  </ion-header-bar>
 
-<ion-content class="padding" scroll="false">
+  <ion-content class="padding" scroll="false">
 
     <!-- <img src='../img/dumbbell26.svg'class="logo-hero">
     </img> -->
 
 
-	<div class="start-hero">
-	</div>
+    <div class="start-hero">
+    </div>
 
-    <div class ="center">
+    <div class="center">
 
-      <div class="item item-body">
-	  		PRE-WORKOUT<p></p>
-			HOW'S YOUR ENERGY TODAY?
-		<div class="row">
+      <div class="item item-body" style="padding: 0px">
+        PRE-WORKOUT
+        <p></p>
+        HOW'S YOUR ENERGY TODAY?
+        <div class="row">
 
-		  <div class="button button-assertive col"><i class="ion-battery-empty button-icon"></i>NOT IN THE MOOD</div>
-		  <div class="button button-assertive col"><i class="ion-battery-low button-icon"></i>TIRED</div>
-		  <div class="button button-assertive col"><i class="ion-battery-half button-icon"></i>OKAY</div>
-		  <div class="button button-assertive col"><i class="ion-battery-full button-icon"></i>ENERGETIC</div>
-		  <div class="button button-assertive col"><i class="ion-battery-charging button-icon"></i>BEAST MODE!</div>
-		</div>
+          <div class="button col" ng-click="setEnergy(0)"><i class="ion-battery-empty button-icon" ng-class="{'positive': shouldCheck(0)}"></i>NOT IN THE MOOD</div>
+          <div class="button col" ng-click="setEnergy(1)"><i class="ion-battery-low button-icon" ng-class="{'positive': shouldCheck(1)}"></i>TIRED</div>
+          <div class="button col" ng-click="setEnergy(2)"><i class="ion-battery-half button-icon" ng-class="{'positive': shouldCheck(2)}"></i>OKAY</div>
+          <div class="button col" ng-click="setEnergy(3)"><i class="ion-battery-full button-icon" ng-class="{'positive': shouldCheck(3)}"></i>ENERGETIC</div>
+          <div class="button col" ng-click="setEnergy(4)"><i class="ion-battery-charging button-icon" ng-class="{'positive': shouldCheck(4)}"></i>BEAST MODE!</div>
+        </div>
       </div>
 
-		<div class="bar bar-footer bar-balanced">
-			<a class="button icon-right ion-chevron-right button-calm">Next</a>
-		</div>
+      <div class="bar bar-footer">
+        <a class="button icon-right ion-chevron-right button-calm">Next</a>
+      </div>
 
   </ion-content>
 </ion-view>

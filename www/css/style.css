@@ -4,15 +4,15 @@
 3. GOALS
  */
 
- 
+
 /* 1. HOME */
 
-.background { 
-background: url('../img/image.png') no-repeat; 
-background-size: cover; 
-background-position: center; 
-margin: auto; 
-z-index: 2;  
+.background {
+background: url('../img/image.png') no-repeat;
+background-size: cover;
+background-position: center;
+margin: auto;
+z-index: 2;
 }
 
 .home-button {
@@ -21,7 +21,7 @@ z-index: 2;
   width: 150px;
   height: 150px;
   padding-top: 27px;
-  
+
   text-align: center;
   margin: 4px;
   background-color: #2ecc9b;
