@@ -1,0 +1,73 @@
+<ion-view view-title="Dashboard" hide-nav-bar="true" ng-controller="StartCtrl">
+<ion-header-bar class="bar-positive">
+  <button class="button" ng-click="back()"> Back</button>
+  <h1 class="title">Pocket Trainer</h1>
+  <button class="button ion-gear-a button-icon"></button>
+</ion-header-bar>
+
+<ion-content class="padding" scroll="false">
+	
+    <!-- <img src='../img/dumbbell26.svg'class="logo-hero">
+    </img> -->
+	
+	
+	<div class ="center">
+	  		TODAYS WORKOUT<p></p>
+			CHOOSE ONE OF YOUR SAVED WORKOUT PLANS: <p></p>
+	
+	
+	<ion-scroll direction="y">
+	<div class="list">
+		  <label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Back
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Back and Biceps
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Biceps
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Chest
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Chest and Triceps
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  
+		  
+		  <p></p>
+	</div>
+	  </ion-scroll>
+		
+		<div class="bar bar-footer ">
+			<a class="button icon-right ion-chevron-right button-calm">Next</a>
+		</div>
+			
+		
+  </ion-content>
+</ion-view>
+
