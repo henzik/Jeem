@@ -21,6 +21,12 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('StartCtrl', function($scope, $ionicHistory) {
+  $scope.back = function() {
+      $ionicHistory.goBack();
+    }
+})
+
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
