@@ -1,7 +1,7 @@
 /* Contents
 1. HOME
 2. START WORKOUT
-3.
+3. GOALS
  */
 
  
@@ -93,3 +93,8 @@ display:block;
   display:block;
 }
 
+/* 3. GOALS */
+
+.list {
+  text-align: left;
+}

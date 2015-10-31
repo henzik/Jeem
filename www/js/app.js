@@ -38,7 +38,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/start',
     templateUrl: 'views/start.html',
   })
+  
+    .state('goal', {
+    url: '/goal',
+    templateUrl: 'views/goal.html',
+  })
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/goal');
 
 });
