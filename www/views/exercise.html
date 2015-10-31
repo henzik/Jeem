@@ -6,34 +6,39 @@
   
 </ion-header-bar>
 
-<ion-content class="padding" scroll="false">
-	
-    <!-- <img src='../img/dumbbell26.svg'class="logo-hero">
-    </img> -->
-	
-	
-	<div class="start-hero">
-	</div> 
-	
-    <div class ="center">
-	
-      <div class="item item-body"> 
-	  		PRE-WORKOUT<p></p>
-			HOW'S YOUR ENERGY TODAY?
-		<div class="row">
-		        
-		  <div class="button button-assertive col"><i class="ion-battery-empty button-icon"></i>NOT IN THE MOOD</div>
-		  <div class="button button-assertive col"><i class="ion-battery-low button-icon"></i>TIRED</div>
-		  <div class="button button-assertive col"><i class="ion-battery-half button-icon"></i>OKAY</div>
-		  <div class="button button-assertive col"><i class="ion-battery-full button-icon"></i>ENERGETIC</div>
-		  <div class="button button-assertive col"><i class="ion-battery-charging button-icon"></i>BEAST MODE!</div>
-		</div>	
-      </div>
-	  
-		<div class="bar bar-footer bar-balanced">
-			<a class="button icon-right ion-chevron-right button-calm">Next</a>
-		</div>
-		
+<ion-content class="padding">
+	 
+	 <form class="list">
+            <ion-item class="item-thumbnail-left">
+                <img src="../img/dumbbell26.svg">
+                <h2>Bench Press (Name)</h2>
+                <p>Chest (Primary Muscle Group)</p>
+				<p>Your Goal: Mass Gain</p>
+            </ion-item>
+			<ion-item class="item-divider">Recommended Weight x Reps: 131KG x 1</ion-item>
+
+            <div class="spacer" style="width: 300px; height: 15px;"></div>
+            <label class="item item-input">
+                <input type="text" placeholder="Enter Weight in KG">
+            </label>
+			<label class="item item-input">
+                <input type="text" placeholder="Enter Number of Reps">
+            </label>
+					<div class="spacer" style="width: 300px; height: 15px;"></div>
+
+						<ion-item class="item-divider">Save Set</ion-item>
+
+		<div class="spacer" style="width: 300px; height: 15px;"></div>
+            <ion-checkbox>Set 1 of 4</ion-checkbox>
+            <ion-checkbox>Set 2 of 4</ion-checkbox>
+            <ion-checkbox>Set 3 of 4</ion-checkbox>
+            <ion-checkbox>Set 4 of 4</ion-checkbox>
+        </form>	
+  
+
   </ion-content>
+  		<div class="bar bar-footer ">
+			<a class="button icon-right ion-chevron-right button-calm">Next Exercise</a>
+		</div>
 </ion-view>
 
