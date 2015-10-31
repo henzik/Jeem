@@ -21,10 +21,22 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('StartCtrl', function($scope, $ionicHistory) {
+.controller('StartCtrl', function($scope, $ionicHistory, $element) {
   $scope.back = function() {
       $ionicHistory.goBack();
     }
+
+  $scope.setEnergy = function(num) {
+    $scope.selectedEnergy = num;
+  }
+
+  $scope.shouldCheck = function(num) {
+    if($scope.selectedEnergy == num) {
+      return true
+    } else {
+      return false
+    }
+  }
 })
 
 
