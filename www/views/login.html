@@ -1,0 +1,26 @@
+<ion-view view-title="Dashboard" hide-nav-bar="true" ng-controller="StartCtrl">
+<ion-header-bar class="bar-positive">
+  <button class="button" ng-click="back()"> Back</button>
+  <h1 class="title">Pocket Trainer</h1>
+  <button class="button ion-gear-a button-icon"></button>
+</ion-header-bar>
+
+    <ion-content padding="true" class="has-header">
+      <div class ="center">
+    	  		Login
+        <form class="list">
+            <ion-list>
+                <label class="item item-input">
+                    <input type="text" placeholder="Username">
+                </label>
+                <label class="item item-input">
+                    <input type="password" placeholder="Password">
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button class="button button-stable button-block ">Log in</button>
+            <a class="button button-positive button-clear button-block ">Or create an account</a>
+        </form>
+      </div>
+    </ion-content>
+</ion-view>
