@@ -2,19 +2,19 @@
 1. HOME
 2. START WORKOUT
 3. GOALS
-4. PLAN 
+4. PLAN
 5. EXERCISES
 */
 
- 
+
 /* 1. HOME */
 
-.background { 
-background: url('../img/image.png') no-repeat; 
-background-size: cover; 
-background-position: center; 
-margin: auto; 
-z-index: 2;  
+.background {
+background: url('../img/image.png') no-repeat;
+background-size: cover;
+background-position: center;
+margin: auto;
+z-index: 2;
 }
 
 .home-button {
@@ -23,7 +23,7 @@ z-index: 2;
   width: 150px;
   height: 150px;
   padding-top: 27px;
-  
+
   text-align: center;
   margin: 4px;
   background-color: #2ecc9b;
@@ -47,8 +47,8 @@ display:block;
 }
 
 .logo-hero {
-  height: 150px;
-  min-height: 150px;
+  height: 130px;
+  min-height: 130px;
 }
 
 .center {
@@ -109,13 +109,11 @@ display:block;
   min-height: 75px;
     position: absolute;
     right: 10px;
-	
+
 }
 .item-thumbnail-left{
 	   border:0;
 }
 .item-divider{
 	   border:0;
-
 }
-
