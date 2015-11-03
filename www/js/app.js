@@ -59,7 +59,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   url: '/signup',
   templateUrl: 'views/signup.html',
   })
+  .state('exerciseinfo', {
+  url: '/exerciseinfo',
+  templateUrl: 'views/exerciseinfo.html',
+  })
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/signup');
+  $urlRouterProvider.otherwise('/exerciseinfo');
 
 });
